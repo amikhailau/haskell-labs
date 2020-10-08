@@ -27,7 +27,7 @@
 			If jump exceeds beginning of the operator stack, then it will jump to the beginning of the operator stack.
 			If jump exceeds end of the operator stack, then it will jump to the end of the operator stack.
 			Examples:
-			![Example UnOpJmp](Lab4/1.jpg?raw=true)
-			![Example BinOpJmpif](Lab4/2.jpg?raw=true)
+![Example UnOpJmp](Lab4/1.jpg?raw=true)
+![Example BinOpJmpif](Lab4/2.jpg?raw=true)
 
 			
