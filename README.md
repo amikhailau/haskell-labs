@@ -30,4 +30,8 @@
 ![Example UnOpJmp](Lab4/1.jpg?raw=true)
 ![Example BinOpJmpif](Lab4/2.jpg?raw=true)
 
+## Lab5
+			transpositionsX :: [a] -> [[a]]
+			treeBuild :: String -> Tree
+			treeGet :: Tree -> String -> Int
 			
