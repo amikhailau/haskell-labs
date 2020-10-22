@@ -35,3 +35,5 @@
 			treeBuild :: String -> Tree
 			treeGet :: Tree -> String -> Int
 			
+## Lab6
+			primeListX - infinite prime numbers list
