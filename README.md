@@ -41,6 +41,7 @@
 ## Lab7
 Example of running through ghci:
 ![Example Huffman](Lab7(Huffman)/example.jpg?raw=true)
+
 			To run normally:
 				ghc -o huffman huffman.hs
 				huffman.exe
