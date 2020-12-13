@@ -54,7 +54,7 @@ Example of running through ghci:
 				register.exe
 
 ## Lab9
-![Example_Count_words_in_file](Lab9(Count_words_in_file)/example.jpg?raw=true)
+![Example Count words in file](Lab9(Count%20words%20in%20file)/example.jpg?raw=true)
 
 			To run:
 				ghc -o words words.hs
