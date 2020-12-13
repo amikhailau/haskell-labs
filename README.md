@@ -49,7 +49,7 @@ Example of running through ghci:
 ## Lab8
 ![Example Registers](Lab8(Registers)/1.jpg?raw=true)
 
-			In the second run on the screenshot I changed "mul 2" command to "mul 3" command.
+			In the second run on the screenshot I changed "mul 2" command to "mul 3" command. Commands to run can be found in main.hs.
 			To run:
 				ghc -o register register.hs main.hs
 				register.exe
