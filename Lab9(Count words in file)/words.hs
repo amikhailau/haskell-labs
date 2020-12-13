@@ -12,10 +12,14 @@ count_words_helper :: [String] -> M.Map String Int -> M.Map String Int
 count_words_helper [] map = map
 count_words_helper (w:words) map = count_words_helper words (insertWith (+) w 1 map)
 
+beautify :: String -> [(String,Int)] -> String
+beautify res [] = res
+beautify res (x:xs) = beautify (res ++ (fst x) ++ ": " ++ (show $ snd x) ++ "\n") xs 
+
 main = do
   putStrLn "File name"
   fileName <- getLine
   handle <- openFile fileName ReadMode
   contents <- hGetContents handle
-  print $ show $ count_words $ words contents
+  putStrLn $ beautify "" $ count_words $ words (L.filter (not . (`elem` ",.?!-:;\"\'")) contents)
     
