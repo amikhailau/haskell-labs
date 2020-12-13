@@ -45,3 +45,17 @@ Example of running through ghci:
 			To run normally:
 				ghc -o huffman huffman.hs
 				huffman.exe
+				
+## Lab8
+![Example Registers](Lab8(Registers)/1.jpg?raw=true)
+
+			To run:
+				ghc -o register register.hs main.hs
+				register.exe
+
+## Lab9
+![Example Count](Lab9(Count words in file)/1.jpg?raw=true)
+
+			To run:
+				ghc -o words words.hs
+				words.exe
